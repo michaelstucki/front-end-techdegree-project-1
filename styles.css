@@ -76,6 +76,7 @@ header .profile-image {
 }
 header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
+  border: 3px solid gold;
 }
 .new-style {
   font-family: 'Italianno', cursive;
@@ -102,7 +103,7 @@ header#interests {
 } 
 .location {
   background-color: #222;
-  color: yellow;
+  color: gold;
 }
 .card {
   margin: 30px;
@@ -115,7 +116,7 @@ header#interests {
   transition: all .5s;
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: black;
 }
 ul.skills {
   padding: 0;
@@ -124,14 +125,16 @@ ul.skills {
 .skills li {
   border-radius: 6px;
   display: inline-block;
-  background: #ff9904;
+  background: grey;
   color: white;
   padding: 5px 10px;
   margin: 2px;
 }
-.skills li:nth-child(odd) {
-  background: #0399ff;
-}
+/* .skills li:nth-child(odd) {
+  border: 3px solid white;
+  background: gray;
+  color: white;
+} */
 footer {
   width: 100%;
   min-height: 30px;
