@@ -130,6 +130,10 @@ ul.skills {
   padding: 5px 10px;
   margin: 2px;
 }
+.skills li:hover {
+  background: gold;
+  color: grey;
+}
 /* .skills li:nth-child(odd) {
   border: 3px solid white;
   background: gray;
